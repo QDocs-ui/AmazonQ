@@ -239,7 +239,63 @@
         color: #667eea;
         margin-bottom: 10px;
       }
-    </style>
+        @media (max-width: 768px) {
+            .container {
+                padding: 0;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .content-card {
+                padding: 15px;
+                margin: 0 0 20px 0;
+                border-radius: 0;
+            }
+            
+            .demo-section {
+                padding: 10px;
+                margin: 0 0 20px 0;
+                border-radius: 0;
+            }
+            
+            .ide-container {
+                border-radius: 0;
+            }
+            
+            .code-editor {
+                font-size: 11px;
+            }
+            
+            .ide-content {
+                padding: 15px;
+            }
+            
+            .demo-controls {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+            }
+            
+            .demo-btn {
+                margin: 0;
+                width: 100%;
+            }
+            
+            .capability-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .capability-item {
+                padding: 15px;
+            }
+        }
   </head>
   <body>
     <div class="container">

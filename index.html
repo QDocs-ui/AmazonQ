@@ -161,16 +161,56 @@
         .announcement-message { color: #555; line-height: 1.5; }
 
         @media (max-width: 768px) {
+            .container {
+                padding: 0;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
             .header h1 {
                 font-size: 2.5rem;
             }
             
             .nav-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
+                margin: 0 10px;
             }
             
             .nav-card {
-                padding: 30px;
+                padding: 20px;
+            }
+            
+            .demo-section {
+                padding: 10px;
+                margin: 0 0 20px 0;
+                border-radius: 0;
+            }
+            
+            .ide-container {
+                border-radius: 0;
+            }
+            
+            .code-editor {
+                font-size: 11px;
+            }
+            
+            .ide-content {
+                padding: 15px;
+            }
+            
+            .demo-controls {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+            }
+            
+            .demo-btn {
+                margin: 0;
+                width: 100%;
             }
         }
     </style>
